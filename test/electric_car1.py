@@ -29,8 +29,16 @@ class ElectricCar(Car):
     """Представляет аспекты машины, специфические для электромобилей."""
 
     def __init__(self, make, model, year):
-        """Инициализирует атрибуты класса-родителя."""
+        """Инициализирует атрибуты класса-родителя
+           Затем инициализирует атрибуты, специфические для электромобиля."""
         super().__init__(make, model, year)
+        self.battery_size = 70  # мощность батареи
+
+    def describe_battery(self):
+        """Выводит информацию о мощности аккумулятора."""
+        print("Мощность акамулятора " + str(self.battery_size) + "kWh")
+
 
 my_tesla = ElectricCar('tesla', 'model s', 2016)
 print(my_tesla.get_descriptive_name())
+my_tesla.describe_battery()
