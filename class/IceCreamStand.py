@@ -15,3 +15,8 @@ restaurant = Restaurant('PTZ', 'herovo')
 print("Это ресторан " + restaurant.restaurant_name.title() + ".")
 print("Тут готовят такую кухню " + restaurant.cuisine_type)
 restaurant.open_restaurant()
+
+
+class IceCreamStand(Restaurant):
+    def __init__(self, flavors):
+        self.flavors = flavors
