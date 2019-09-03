@@ -8,15 +8,6 @@ class Restaurant():
         print(self.restaurant_name.title())
         print(self.cuisine_type)
 
-    def open_restaurant(self):
-        print(self.restaurant_name.title() + " открыт ")
-
-
-restaurant = Restaurant('PTZ', 'herovo')
-print("Это ресторан " + restaurant.restaurant_name.title() + ".")
-print("Тут готовят такую кухню " + restaurant.cuisine_type)
-restaurant.open_restaurant()
-
 
 class IceCreamStand(Restaurant):
     """Выводит список мороженного"""
@@ -26,6 +17,7 @@ class IceCreamStand(Restaurant):
         self.flavors = ['mal', 'klub', 'zer']
 
     def describe_flavors(self):
+        """Список мороженного"""
         print("Мороженное " + str(self.flavors))
 
 
