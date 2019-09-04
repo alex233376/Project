@@ -12,7 +12,7 @@ class User():
 
 
 class Admin(User):
-
+    """Инициализирует права описание прав админа"""
     def __init__(self, first_name, last_name):
         super().__init__(first_name, last_name)
         self.privileges = ('собщения', 'удалять', 'банить')
