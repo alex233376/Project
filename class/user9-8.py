@@ -6,6 +6,7 @@ class User:
     def describe_user(self):
         print('Имя: ' + self.first_name)
         print('Фамилия: ' + self.last_name)
+        print('Может:')
 
     # def great_user(self):
         #full_name = self.first_name + ' ' + self.last_name
