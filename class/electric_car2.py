@@ -34,7 +34,7 @@ class Battery():
 
     def describe_battery(self):
         """Выводит информацию о мощности аккумулятора."""
-        print("Мощность аккамулятора " + str(self.battery_size) + "kWh")
+        print("Мощность батареи " + str(self.battery_size) + "kWh")
 
 
 class ElectricCar(Car):

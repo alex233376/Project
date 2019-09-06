@@ -1,6 +1,4 @@
 class Car():
-    """Простая модель автомобиля."""
-
     def __init__(self, make, model, year):
         self.make = make
         self.model = model
@@ -8,12 +6,11 @@ class Car():
         self.odometer_reading = 0
 
     def get_descriptive_name(self):
-        """Возвращает аккуратно отформатированное описание."""
         long_name = str(self.year) + ' ' + self.make + ' ' + self.model
         return long_name.title()
 
     def read_odometer(self):
-        print("Эта машина " + str(self.odometer_reading) + " миль прошла")
+        print("This car has " + str(self.odometer_reading) + " miles on it.")
 
     def update_odometer(self, mileage):
         if mileage >= self.odometer_reading:
@@ -21,38 +18,26 @@ class Car():
         else:
             print("Вы не можете откатить одометр!")
 
-    def increment_odometer(self, miles):
-        self.odometer_reading += miles
-
 
 class Battery():
-    """Простая модель аккумулятора электромобиля."""
-
     def __init__(self, battery_size=70):
-        """Инициализирует атрибуты аккумулятора."""
         self.battery_size = battery_size
 
     def describe_battery(self):
-        """Выводит информацию о мощности аккумулятора."""
-        print("Мощность аккамулятора " + str(self.battery_size) + "kWh")
+        print("Мощность аккамулятора " + str(self.battery_size) + "-kWh .")
 
     def get_range(self):
-        """Выводит приблизительный запас хода для аккумулятора."""
         if self.battery_size == 70:
             range = 240
         elif self.battery_size == 85:
             range = 270
-    message = "Эта машина может ехать примерно " + str(range)
-    message += " миль на полном заряде."
-    print(message)
+        message = "Эта машина может ехать примерно " + str(range)
+        message += " миль на полном заряде."
+        print(message)
 
 
 class ElectricCar(Car):
-    """Представляет аспекты машины, специфические для электромобилей."""
-
     def __init__(self, make, model, year):
-        """Инициализирует атрибуты класса-родителя.
-        Затем инициализирует атрибуты, специфические для электромобиля."""
         super().__init__(make, model, year)
         self.battery = Battery()
 
