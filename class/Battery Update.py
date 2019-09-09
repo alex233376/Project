@@ -26,7 +26,7 @@ class Battery():
     def describe_battery(self):
         print("Мощность аккамулятора " + str(self.battery_size) + "-kWh .")
 
-    def upgrade_battery(self, upgrade):
+    def upgrade_battery(self, upgrade):# проверяет размер аккумулятора и устанавливать мощность
         self.battery_size = upgrade
 
     def get_range(self):
@@ -47,6 +47,6 @@ class ElectricCar(Car):
 
 my_tesla = ElectricCar('tesla', 'model s', 2016)
 print(my_tesla.get_descriptive_name())
-my_tesla.battery.upgrade_battery(85)
+my_tesla.battery.upgrade_battery(85)#устанавливает мощность равной 85
 my_tesla.battery.describe_battery()
 my_tesla.battery.get_range()

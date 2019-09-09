@@ -23,24 +23,3 @@ class Car():
     def increment_odometer(self, miles):
         self.odometer_reading += miles
 
-
-class Battery():
-    def __init__(self, battery_size=70):
-        self.battery_size = battery_size
-
-    def describe_battery(self):
-        print('Мощность батареи ' + str(self.battery_size) + '-kWh')
-
-    def get_range(self):
-        if self.battery_size == 70:
-            range = 240
-        elif self.battery_size == 85:
-            range = 270
-        message = "Эта машина может проехать примерно" + str(range)
-        message += "миль на полном заряде"
-        print(message)
-class ElectricCar(Car):
-    def __init__(self, make, model, year):
-        super().__init__(make, model, year)
-        self.battery = Battery()
-
