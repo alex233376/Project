@@ -3,7 +3,7 @@ def list_pet(pet):#создаём фуркцию
         with open(pet) as f:
             contents = f.read()# метод read(),читает все содержимое файла и сохраняет его в строке
     except FileNotFoundError:# обрабатывает ошибку и выводит сообщение если файл не найден
-        print("Извините файл не найден ")
+        pass
     else:# если исключений нет срабатывает этот код
         words = str(contents)# если использовать метод .split() то выведет список[]
         print(words)
