@@ -8,5 +8,9 @@ class NamesTestCase(unittest.TestCase):#создается класс NamesTestC
         formatted_name = get_formatted_name('janis', 'joplin')
         self.assertEqual(formatted_name, 'Janis Joplin')# Вызов означает: «Сравни значение formatted_name со строкой 'Janis Joplin'.
         #Если они равны, как и ожидалось, — хорошо.Но если они не равны, сообщи мне
+    def test_first_last_middle_name(self):
+        """Работают ли такие имена, как 'Wolfgang Amadeus Mozart'?"""
+        formatted_name = get_formatted_name('wolfgang', 'mozart', 'amadeus')
+        self.assertEqual(formatted_name, 'Wolfgang Amadeus Mozart')
 
-unittest.main()# приказывает Python выполнить тесты из этого файла. 
+unittest.main()# приказывает Python выполнить тесты из этого файла.
