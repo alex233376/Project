@@ -3,7 +3,7 @@ import unittest
 from city_functions import city_country
 
 class CitiesTestCase(unittest.TestCase):
-    """Tests for 'city_functions.py'."""
+    """Тесты для 'city_functions.py'."""
 
     def test_city_country(self):
         """Работает ли простая пара город и страна?"""
