@@ -9,6 +9,8 @@ def run_game():
     pygame.display.set_caption("Game Alex")
     ship = Ship(screen)
     while True:
+        # Запуск основного цикла игры.
         gf.check_events(ship)
+        ship.update()
         gf.update_screen(ai_settings, screen, ship)
 run_game()

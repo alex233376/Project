@@ -5,8 +5,12 @@ def check_events(ship):
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             sys.exit()
-        elif event.type == pygame.KEYDOWN:
+        elif event.type == pygame.KEYDOWN:#проверка нажатия клавиши со стрелками
             if event.key == pygame.K_RIGHT:
+                ship.moving_right = True#кнопка нажата двигаемся в право
+        elif event.type == pygame.KEYUP:# проверка что кнопка отпущенна
+            if event.key == pygame.K_RIGHT:
+                ship.moving_right = False#кнопка отпущенна остановились
             # Переместить корабль вправо.
                 ship.rect.centerx += 1
 def update_screen(ai_settings, screen, ship):
