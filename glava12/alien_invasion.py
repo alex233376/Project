@@ -7,7 +7,7 @@ def run_game():
     ai_settings = Settings()
     screen = pygame.display.set_mode((ai_settings.screen_width, ai_settings.screen_height))
     pygame.display.set_caption("Game Alex")
-    ship = Ship(screen)
+    ship = Ship(ai_settings, screen)# Создание корабля.
     while True:
         # Запуск основного цикла игры.
         gf.check_events(ship)
