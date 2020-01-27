@@ -12,7 +12,7 @@ def check_keyup_events(event, ship):
         ship.moving_right = False
     elif event.key == pygame.K_LEFT:
         ship.moving_left = False
-def check_events(ship):
+def check_events(ai_settings, screen, ship, bullets):
     """Обрабатывает нажатия клавиш и события мыши."""
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
@@ -23,7 +23,7 @@ def check_events(ship):
             check_keyup_events(event, ship)
 
 
-def update_screen(ai_settings, screen, ship):
+def update_screen(ai_settings, screen, ship, bullets):
     """Обновляет изображения на экране и отображает новый экран."""
     # При каждом проходе цикла перерисовывается экран.
     screen.fill(ai_settings.bg_color)
