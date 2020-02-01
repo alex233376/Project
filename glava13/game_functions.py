@@ -1,11 +1,11 @@
 import sys
 import pygame
 
-
 from bullet import Bullet
 
 
 def check_keydown_events(event, ai_settings, screen, ship, bullets):
+
     """Реагирует на нажатие клавиш."""
     if event.key == pygame.K_RIGHT:
         ship.moving_right = True

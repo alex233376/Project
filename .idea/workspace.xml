@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a54f6c10-3e92-4c85-94cb-4185bf865e3f" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,23 +23,16 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1T40xUTSQ1rsMLKhzmXOfcSdcYn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ToolWindowEvent Log.ShowToolbar" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.alien_invasion">
     <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -183,5 +175,35 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="530" y="256" key="#Inspections" timestamp="1580555591545">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state x="530" y="256" key="#Inspections/0.40.2048.1112@0.40.2048.1112" timestamp="1580555591545" />
+    <state x="665" y="212" key="#alien_invasion" timestamp="1580555618722">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state x="665" y="212" key="#alien_invasion/0.40.2048.1112@0.40.2048.1112" timestamp="1580555618722" />
+    <state width="1367" height="454" key="GridCell.Tab.0.bottom" timestamp="1580555824620">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="1367" height="454" key="GridCell.Tab.0.bottom/0.40.2048.1112@0.40.2048.1112" timestamp="1580555824620" />
+    <state width="1367" height="454" key="GridCell.Tab.0.center" timestamp="1580555824620">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="1367" height="454" key="GridCell.Tab.0.center/0.40.2048.1112@0.40.2048.1112" timestamp="1580555824620" />
+    <state width="1367" height="454" key="GridCell.Tab.0.left" timestamp="1580555824620">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="1367" height="454" key="GridCell.Tab.0.left/0.40.2048.1112@0.40.2048.1112" timestamp="1580555824620" />
+    <state width="1367" height="454" key="GridCell.Tab.0.right" timestamp="1580555824620">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="1367" height="454" key="GridCell.Tab.0.right/0.40.2048.1112@0.40.2048.1112" timestamp="1580555824620" />
+    <state x="447" y="240" key="SettingsEditor" timestamp="1580555643273">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state x="447" y="240" key="SettingsEditor/0.40.2048.1112@0.40.2048.1112" timestamp="1580555643273" />
   </component>
 </project>

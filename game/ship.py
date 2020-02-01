@@ -8,7 +8,7 @@ class Ship():
         self.screen = screen
         self.ai_settings = ai_settings
         # Загрузите изображение корабля и получите его прямоугольник.
-        self.image = pygame.image.load('glava12/images/ship.bmp')
+        self.image = pygame.image.load('game/images/ship.bmp')
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
         self.rect.bottom = self.screen_rect.bottom
@@ -28,6 +28,7 @@ class Ship():
             self.center -= self.ai_settings.ship_speed_factor
         self.rect.centerx = self.center# Обновление атрибута rect на основании self.center.
     def blitme(self):
+        
         """Рисует корабль в текущей позиции."""
         self.screen.blit(self.image, self.rect)
 
