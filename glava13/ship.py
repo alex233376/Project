@@ -9,7 +9,7 @@ class Ship():
         self.screen = screen
         self.ai_settings = ai_settings
         # Загрузите изображение корабля и получите его прямоугольник.
-        self.image = pygame.image.load('glava12/images/ship.bmp')
+        self.image = pygame.image.load('glava13/images/ship.bmp')
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
         self.rect.bottom = self.screen_rect.bottom
