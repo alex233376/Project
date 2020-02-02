@@ -1,6 +1,7 @@
 import pygame
 from pygame.sprite import Sprite
 
+
 class Alien(Sprite):
     """Класс, представляющий одного пришельца."""
     def __init__(self, ai_settings, screen):
@@ -16,8 +17,7 @@ class Alien(Sprite):
         self.rect.y = self.rect.height
         # Сохранение точной позиции пришельца.
         self.x = float(self.rect.x)
+
     def blitme(self):
         """Выводит пришельца в текущем положении."""
         self.screen.blit(self.image, self.rect)
-
-
