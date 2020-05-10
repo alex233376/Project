@@ -1,0 +1,22 @@
+the_guests = ['petro', 'valera', 'alex']
+
+print(f'{the_guests[0].title()} приходи на обед')
+print(f'{the_guests[1].title()} приходи на обед')
+print(f'{the_guests[2].title()} приходи на обед')
+
+print(f'\n{the_guests[1].title()} придти не сможет')
+the_guests.remove('valera')  # Удалил пользователя
+the_guests.insert(2, 'vasia')  # Вставил нового
+print(f'\n{the_guests[0].title()} приходи на обед')
+print(f'{the_guests[1].title()} приходи на обед')
+print(f'{the_guests[2].title()} приходи на обед')
+print('\nСписок гостей будет расширен ')
+the_guests.insert(0, 'fedor')
+the_guests.insert(2, 'ivan')
+the_guests.append('pup')
+print(f'\n{the_guests[0].title()} приходи на обед')
+print(f'{the_guests[1].title()} приходи на обед')
+print(f'{the_guests[2].title()} приходи на обед')
+print(f'{the_guests[3].title()} приходи на обед')
+print(f'{the_guests[4].title()} приходи на обед')
+print(f'{the_guests[5].title()} приходи на обед')

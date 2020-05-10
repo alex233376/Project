@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f2df3e1c-3b36-4ed5-8a7b-88d2b22872c7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1bcCc5caX1Iu4zKrPweyWZLi7Bl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="project.scopes" />
+  </component>
+  <component name="RunManager" selected="Python.formatted_name">
+    <configuration name="formatted_name" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="proj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/glava8" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/glava8/formatted_name.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="greeter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="proj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/glava8" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/glava8/greeter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="upr8.4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="proj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/glava8" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/glava8/upr8.4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.formatted_name" />
+        <item itemvalue="Python.upr8.4" />
+        <item itemvalue="Python.greeter" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="147" y="165" key="#Inspections" timestamp="1588922282920">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state x="147" y="165" key="#Inspections/0.40.2048.1112@0.40.2048.1112" timestamp="1588922282920" />
+    <state x="406" y="349" key="#Notifications" timestamp="1588922230304">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state x="406" y="349" key="#Notifications/0.40.2048.1112@0.40.2048.1112" timestamp="1588922230304" />
+    <state x="201" y="222" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1588922092420">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state x="201" y="222" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.40.2048.1112@0.40.2048.1112" timestamp="1588922092420" />
+    <state x="236" y="82" key="#greeter" timestamp="1588922266026">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state x="236" y="82" key="#greeter/0.40.2048.1112@0.40.2048.1112" timestamp="1588922266026" />
+    <state width="1023" height="328" key="GridCell.Tab.0.bottom" timestamp="1588923274281">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="1023" height="328" key="GridCell.Tab.0.bottom/0.40.2048.1112@0.40.2048.1112" timestamp="1588923274281" />
+    <state width="1023" height="328" key="GridCell.Tab.0.center" timestamp="1588923274281">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="1023" height="328" key="GridCell.Tab.0.center/0.40.2048.1112@0.40.2048.1112" timestamp="1588923274281" />
+    <state width="1023" height="328" key="GridCell.Tab.0.left" timestamp="1588923274281">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="1023" height="328" key="GridCell.Tab.0.left/0.40.2048.1112@0.40.2048.1112" timestamp="1588923274281" />
+    <state width="1023" height="328" key="GridCell.Tab.0.right" timestamp="1588923274281">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="1023" height="328" key="GridCell.Tab.0.right/0.40.2048.1112@0.40.2048.1112" timestamp="1588923274281" />
+    <state x="632" y="218" key="SettingsEditor" timestamp="1588922911879">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state x="632" y="218" key="SettingsEditor/0.40.2048.1112@0.40.2048.1112" timestamp="1588922911879" />
+    <state x="786" y="323" width="672" height="678" key="search.everywhere.popup" timestamp="1588922597326">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state x="786" y="323" width="672" height="678" key="search.everywhere.popup/0.40.2048.1112@0.40.2048.1112" timestamp="1588922597326" />
+  </component>
+</project>
