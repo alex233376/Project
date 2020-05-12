@@ -1,9 +1,5 @@
-def make_pizza(*toppings):
+def make_pizza(size, *toppings):
     """Выводит описание пиццы."""
-    print(f"\nMaking a pizza with the following toppings")
+    print(f"\nMaking a {size}-pizza with the following toppings")
     for topping in toppings:
         print(f"- {topping}")
-
-
-make_pizza("pepperoni")
-make_pizza("mushrooms", "green peppers", "extra cheese")
