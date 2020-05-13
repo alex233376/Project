@@ -64,7 +64,7 @@ class ElectricCar(Car):
 
     def describe_battery(self):
         """Выводит размер батареи."""
-        print(f"This car has a {self.battery_size}-kWh battery.")
+        print(f"Эта батарея имеет заряд {self.battery_size}-kWh.")
 
 
 my_tesla = ElectricCar('tesla', 'model s', 2019)
