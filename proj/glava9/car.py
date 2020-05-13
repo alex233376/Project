@@ -31,13 +31,32 @@ class Car():
         self.odometer_reading += miles
 
 
-# создается экземпляр my_used_car
-my_used_car = Car('subaru', 'outback', 2015)
-print(my_used_car.get_descriptive_name())
-# инициализируем показания одометра значением 23 500
-my_used_car.update_odometer(23_500)
-my_used_car.read_odometer()
-# увеличиваем показания одометра на 100 миль, пройденные
-# с момента покупки
-my_used_car.increment_odometer(100)
-my_used_car.read_odometer()
+class Battery():
+    """Простая модель аккумулятора электромобиля."""
+
+    def __init__(self, battery_size=70):
+        """Инициализация атрибутов аккумулятора."""
+        self.battery_size = battery_size
+
+    def describe_battery(self):
+        """Выводит информацию о мощности аккумулятора."""
+        print(f"Эта машина имеет батарею {self.battery_size} kWh")
+
+        def get_range(self):
+            """Выводит приблизительный запас хода для аккумулятора."""
+            if self.battery_size == 75:
+                range = 260
+            elif self.battery_size == 100:
+                range = 315
+
+            print(f"Эта машина может проехать {range} на этом заряде ")
+
+
+class ElectricCar(Car):
+    """Представляет аспекты машины, специфические для электромобилей."""
+    def __init__(self, make, model, year):
+        """Инициализирует атрибуты класса-родителя.
+        Затем инициализирует атрибуты, специфические для электромобиля.
+        """
+        super().__init__(make, model, year)
+        self.battery = Battery()
