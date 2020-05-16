@@ -6,12 +6,12 @@ confirmed_users = []
 # Проверяем каждого пользователя, пока остаются непроверенные
 #  перемещается в список проверенных.
 while unconfirmed_users:
-    current_user = unconfirmed_users.pop()
+	current_user = unconfirmed_users.pop()
 
-    print(f"Верефицированный юзер: {current_user.title()}")
-    confirmed_users.append(current_user)
+	print(f"Верефицированный юзер: {current_user.title()}")
+	confirmed_users.append(current_user)
 
 # Вывод всех проверенных пользователей.
 print(f"\nЭто проверенные пользователи")
 for confirmed_user in confirmed_users:
-    print(confirmed_user.title())
+	print(confirmed_user.title())

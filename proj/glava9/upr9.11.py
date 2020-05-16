@@ -1,4 +1,4 @@
-from adm import User, Privileges, Admin
+from adm import Privileges
 
 admin = Privileges()
 admin.show_privileges()

@@ -1,6 +1,6 @@
 def show_messges(messages):
-    for message in messages:
-        print(messages)
+	for message in messages:
+		print(messages)
 
 
 msg = ['alex hello', 'petro hello']

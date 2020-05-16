@@ -1,8 +1,8 @@
 person = {
-    'first_name': 'petro',
-    'last_name': 'petrov',
-    'age': 30,
-    'city': 'bamba'
+	'first_name': 'petro',
+	'last_name': 'petrov',
+	'age': 30,
+	'city': 'bamba'
 }
 persons = person['first_name'].title()
 print(persons)

@@ -1,8 +1,8 @@
 def make_album(name, album, trek=None):
-    full_info = {'executor': name, 'name_album': album}
-    if trek:
-        full_info['trek'] = trek
-    return full_info
+	full_info = {'executor': name, 'name_album': album}
+	if trek:
+		full_info['trek'] = trek
+	return full_info
 
 
 info = make_album('petro', 'asd', trek=12)

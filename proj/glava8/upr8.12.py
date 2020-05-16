@@ -1,7 +1,7 @@
 def make_pizza(*toppings):
-    print("Приготовленна с этими начинками ")
-    for topping in toppings:
-        print(topping)
+	print("Приготовленна с этими начинками ")
+	for topping in toppings:
+		print(topping)
 
 
 make_pizza('mushrooms', 'green peppers')

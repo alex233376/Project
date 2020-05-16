@@ -2,9 +2,9 @@ prompt = input("\nПожалуйста, введите название горо
 prompt += "\nВведите 'quit' для выхода из программы:"
 
 while True:
-    city = input(prompt)
+	city = input(prompt)
 
-    if city == 'quit':
-        break
-    else:
-        print(f"Я хотел бы поехать в {city.title()}!")
+	if city == 'quit':
+		break
+	else:
+		print(f"Я хотел бы поехать в {city.title()}!")

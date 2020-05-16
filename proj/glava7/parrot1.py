@@ -2,8 +2,8 @@ prompt = input("\nСкажи мне что-нибудь, и я повторю э
 prompt += "\nВведите 'quit' для выхода из программы:"
 active = True  # Задали флаг на активацию
 while active:
-    message = input(prompt)
-    if message == 'quit':
-        active = False
-    else:
-        print(message)
+	message = input(prompt)
+	if message == 'quit':
+		active = False
+	else:
+		print(message)

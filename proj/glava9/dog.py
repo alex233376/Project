@@ -1,18 +1,18 @@
 class Dog():
-    """Простая модель собаки."""
+	"""Простая модель собаки."""
 
-    def __init__(self, name, age):
-        """Инициализирует атрибуты name и age."""
-        self.name = name
-        self.age = age
+	def __init__(self, name, age):
+		"""Инициализирует атрибуты name и age."""
+		self.name = name
+		self.age = age
 
-    def sit(self):
-        """Собака садится по команде."""
-        print(f'{self.name} is now sitting ')
+	def sit(self):
+		"""Собака садится по команде."""
+		print(f'{self.name} is now sitting ')
 
-    def roll_over(self):
-        """Собака перекатывается по команде."""
-        print(f"{self.name} rolled over!")
+	def roll_over(self):
+		"""Собака перекатывается по команде."""
+		print(f"{self.name} rolled over!")
 
 
 my_dog = Dog('wille', 6)
