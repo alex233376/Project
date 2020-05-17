@@ -6,7 +6,6 @@ mic = sr.Microphone(device_index=1)
 # for i in range(0, len(list_mic)):
 #     print(i, list_mic[i])
 
-# obtain audio from the microphone
 r = sr.Recognizer()
 with sr.Microphone() as source:
     print("Скажите число!")

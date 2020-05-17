@@ -3,7 +3,8 @@ import os
 import sys
 import webbrowser
 import pyttsx3
-
+import time
+import datetime
 
 def talk(words):
     engine = pyttsx3.init()
@@ -13,7 +14,7 @@ def talk(words):
 
 # Вызов функции и передача строки
 # именно эта строка будет проговорена компьютером
-talk("Привет я Бармалей чего хотел")
+talk("Привет я Бармалей чего хотел повелитель")
 
 """
     Функция command() служит для отслеживания микрофона.
@@ -53,7 +54,7 @@ def command():
         # Здесь просто проговариваем слова "Я вас не поняла"
         # и вызываем снова функцию command() для
         # получения текста от пользователя
-        talk("Я вас не поняла")
+        talk("Я тебя не понял")
         zadanie = command()
 
     # В конце функции возвращаем текст задания
@@ -81,11 +82,13 @@ def makeSomething(zadanie):
         talk("Да, конечно, без проблем")
         # Выходим из программы
         sys.exit()
-    # Аналогично
-    elif 'имя' in zadanie:
-        talk("Меня зовут Сири")
-
-
+    elif 'контакт' in zadanie:
+        talk("Открываю вк")
+        url = 'https://vk.com/id36668725'
+        webbrowser.open(url)
+    elif 'время' in zadanie:
+        now = datetime.datetime.today().strftime("%H %M")
+        talk(now)
 # Вызов функции для проверки текста будет
 # осуществляться постоянно, поэтому здесь
 # прописан бесконечный цикл while
