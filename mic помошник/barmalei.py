@@ -89,6 +89,7 @@ def makeSomething(zadanie):
     elif 'время' in zadanie:
         now = datetime.datetime.today().strftime("%H %M")
         talk(now)
+
 # Вызов функции для проверки текста будет
 # осуществляться постоянно, поэтому здесь
 # прописан бесконечный цикл while
