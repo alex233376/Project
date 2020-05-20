@@ -1,5 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:pip" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:pip" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:ehmatthes-pcc_2e-9e7977b" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:pip" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:ehmatthes-pcc_2e-9e7977b" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:chapter_20" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:pip" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:ehmatthes-pcc_2e-9e7977b" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:chapter_20" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:deploying_learning_log" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a54f6c10-3e92-4c85-94cb-4185bf865e3f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,9 +68,6 @@
   <component name="ErrorTreeViewConfiguration">
     <option name="autoscrollToSource" value="true" />
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="Project" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -29,29 +84,32 @@
   <component name="ProjectId" id="1T40xUTSQ1rsMLKhzmXOfcSdcYn" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ToolWindowEvent Log.ShowToolbar" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
-  <component name="RunManager" selected="Python.alien_invasion">
-    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.myfile">
+    <configuration name="23" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/glava12" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/glava12/1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/23.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -60,7 +118,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="alien_invasion (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="alien_invasion (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -68,11 +126,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/исходники из книги изучаем python/chapter_12/piloting_the_ship" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/proj/alien_invasion" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/исходники из книги изучаем python/chapter_12/piloting_the_ship/alien_invasion.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/proj/alien_invasion/alien_invasion.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -81,7 +139,25 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="alien_invasion" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="myfile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/myfile.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -89,11 +165,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/glava12" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/glava12/alien_invasion.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -102,7 +178,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="game" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="threenames" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -110,32 +186,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/game" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/game/game.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="game_functions" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/glava12" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/glava12/game_functions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/threenames.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.alien_invasion" />
-        <item itemvalue="Python.game" />
-        <item itemvalue="Python.alien_invasion (1)" />
-        <item itemvalue="Python.game_functions" />
-        <item itemvalue="Python.1" />
+        <item itemvalue="Python.myfile" />
+        <item itemvalue="Python.myfile" />
+        <item itemvalue="Python.myfile" />
+        <item itemvalue="Python.test2" />
+        <item itemvalue="Python.threenames" />
       </list>
     </recent_temporary>
   </component>
@@ -172,50 +227,65 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="530" y="256" key="#Inspections" timestamp="1580555591545">
+    <state x="594" y="115" key="#Inspections" timestamp="1589976890386">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
-    <state x="530" y="256" key="#Inspections/0.40.2048.1112@0.40.2048.1112" timestamp="1580555591545" />
-    <state x="531" y="256" width="814" height="728" key="#Intentions" timestamp="1580556700081">
+    <state x="594" y="115" key="#Inspections/0.40.2048.1112@0.40.2048.1112" timestamp="1589976890386" />
+    <state x="910" y="459" key="#Notifications" timestamp="1589975064972">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
-    <state x="531" y="256" width="814" height="728" key="#Intentions/0.40.2048.1112@0.40.2048.1112" timestamp="1580556700081" />
-    <state x="531" y="256" key="#Notifications" timestamp="1580783410870">
+    <state x="910" y="459" key="#Notifications/0.40.2048.1112@0.40.2048.1112" timestamp="1589975064972" />
+    <state x="740" y="192" key="#alien_invasion" timestamp="1589974993782">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
-    <state x="531" y="256" key="#Notifications/0.40.2048.1112@0.40.2048.1112" timestamp="1580783410870" />
-    <state x="665" y="212" key="#alien_invasion" timestamp="1580555618722">
+    <state x="740" y="192" key="#alien_invasion/0.40.2048.1112@0.40.2048.1112" timestamp="1589974993782" />
+    <state x="804" y="301" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1589974982720">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
-    <state x="665" y="212" key="#alien_invasion/0.40.2048.1112@0.40.2048.1112" timestamp="1580555618722" />
-    <state width="1368" height="453" key="GridCell.Tab.0.bottom" timestamp="1580556703174">
+    <state x="804" y="301" key="#com.intellij.ide.macro.MacrosDialog/0.40.2048.1112@0.40.2048.1112" timestamp="1589974982720" />
+    <state x="683" y="33" key="#myfile" timestamp="1589976248448">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
-    <state width="1368" height="453" key="GridCell.Tab.0.bottom/0.40.2048.1112@0.40.2048.1112" timestamp="1580556703174" />
-    <state width="1368" height="453" key="GridCell.Tab.0.center" timestamp="1580556703174">
+    <state x="683" y="33" key="#myfile/0.40.2048.1112@0.40.2048.1112" timestamp="1589976248448" />
+    <state x="836" y="193" key="EnvironmentVariablesDialog" timestamp="1589976237002">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
-    <state width="1368" height="453" key="GridCell.Tab.0.center/0.40.2048.1112@0.40.2048.1112" timestamp="1580556703174" />
-    <state width="1368" height="453" key="GridCell.Tab.0.left" timestamp="1580556703174">
+    <state x="836" y="193" key="EnvironmentVariablesDialog/0.40.2048.1112@0.40.2048.1112" timestamp="1589976237002" />
+    <state x="747" y="192" key="FileChooserDialogImpl" timestamp="1589976219069">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
-    <state width="1368" height="453" key="GridCell.Tab.0.left/0.40.2048.1112@0.40.2048.1112" timestamp="1580556703174" />
-    <state width="1368" height="453" key="GridCell.Tab.0.right" timestamp="1580556703174">
+    <state x="747" y="192" key="FileChooserDialogImpl/0.40.2048.1112@0.40.2048.1112" timestamp="1589976219069" />
+    <state width="1258" height="266" key="GridCell.Tab.0.bottom" timestamp="1589978360680">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
-    <state width="1368" height="453" key="GridCell.Tab.0.right/0.40.2048.1112@0.40.2048.1112" timestamp="1580556703174" />
-    <state x="447" y="240" key="SettingsEditor" timestamp="1580555643273">
+    <state width="1258" height="266" key="GridCell.Tab.0.bottom/0.40.2048.1112@0.40.2048.1112" timestamp="1589978360680" />
+    <state width="1258" height="266" key="GridCell.Tab.0.center" timestamp="1589978360680">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
-    <state x="447" y="240" key="SettingsEditor/0.40.2048.1112@0.40.2048.1112" timestamp="1580555643273" />
+    <state width="1258" height="266" key="GridCell.Tab.0.center/0.40.2048.1112@0.40.2048.1112" timestamp="1589978360680" />
+    <state width="1258" height="266" key="GridCell.Tab.0.left" timestamp="1589978360680">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="1258" height="266" key="GridCell.Tab.0.left/0.40.2048.1112@0.40.2048.1112" timestamp="1589978360680" />
+    <state width="1258" height="266" key="GridCell.Tab.0.right" timestamp="1589978360680">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="1258" height="266" key="GridCell.Tab.0.right/0.40.2048.1112@0.40.2048.1112" timestamp="1589978360680" />
+    <state x="1038" y="300" key="SettingsEditor" timestamp="1589978268595">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state x="1038" y="300" key="SettingsEditor/0.40.2048.1112@0.40.2048.1112" timestamp="1589978268595" />
+    <state x="810" y="209" key="refactoring.ChangeSignatureDialog" timestamp="1589976910577">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state x="810" y="209" key="refactoring.ChangeSignatureDialog/0.40.2048.1112@0.40.2048.1112" timestamp="1589976910577" />
   </component>
 </project>

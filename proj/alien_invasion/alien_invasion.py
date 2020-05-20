@@ -26,9 +26,8 @@ class AlienInvasion:
         while True:
             self._check_events()
             self.ship.update()
-            self.bullets.update()
+            self._update_bullets()
             self._update_screen()
-        # При каждом проходе цикла перерисовывается экран.
 
     def _check_events(self):
         """Обрабатывает нажатия клавиш и события мыши."""
@@ -61,9 +60,20 @@ class AlienInvasion:
 
     def _fire_bullet(self):
         """Создание нового снаряда и включение его в группу bullets."""
-        new_bullet = Bullet(self)
-        self.bullets.add(new_bullet)  # Метод add() похож на append(), но этот
+        if len(self.bullets) < self.settings.bullets_allowed:
+            new_bullet = Bullet(self)
+            # Метод add() похож на append(), но этот
+            self.bullets.add(new_bullet)
         # метод написан специально для групп Pygame
+
+    def _update_bullets(self):
+        """Обновляет позиции снарядов и уничтожает старые снаряды."""
+        # Обновление позиций снарядов.
+        self.bullets.update()
+        # Удаление снарядов, вышедших за край экрана
+        for bullet in self .bullets.copy():
+            if bullet.rect.bottom <= 0:
+                self.bullets.remove(bullet)
 
     def _update_screen(self):
         # При каждом проходе цикла перерисовывается экран.
