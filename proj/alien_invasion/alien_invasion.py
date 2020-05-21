@@ -71,13 +71,27 @@ class AlienInvasion:
 
     def _update_bullets(self):
         """Обновите положение пуль и избавьтесь от старых пуль."""
-        # Update bullet positions.
+        # Обновляет позицию снаряда.
         self.bullets.update()
 
-        # Get rid of bullets that have disappeared.
+        # Удаляет снаряды.
         for bullet in self.bullets.copy():
             if bullet.rect.bottom <= 0:
                 self.bullets.remove(bullet)
+
+        self._check_bullets_allien_collisions()
+
+    def _check_bullets_allien_collisions(self):
+        """Обработка коллизий снарядов с пришельцами."""
+        # Удаление снарядов и пришельцев, участвующих в коллизиях
+        # Проверка попаданий в пришельцев.
+        # При обнаружении попадания удалить снаряд и пришельца
+        collisions = pygame.sprite.groupcollide(
+            self.bullets, self.aliens, True, True)
+        if not self.aliens:
+            # Уничтожение существующих снарядов и создание нового флота.
+            self.bullets.empty()
+            self._create_fleet()
 
     def _update_aliens(self):
         """
