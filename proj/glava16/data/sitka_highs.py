@@ -9,4 +9,13 @@ with open(filename) as f:
     for row in reader:
         high = int(row[5])
         highs.append(high)
-print(highs)
+# Нанесение данных на диаграмму.
+plt.style.use('seaborn')
+fig, ax = plt.subplots()
+ax.plot(highs, c='red')
+# Форматирование диаграммы
+plt.title("Daily high temperatures, July 2018", fontsize=24)
+plt.xlabel('', fontsize=16)
+plt.ylabel("Temperature (F)", fontsize=16)
+plt.tick_params(axis='both', which='major', labelsize=16)
+plt.show()
