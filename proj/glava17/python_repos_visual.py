@@ -30,8 +30,15 @@ data = [{
 
 my_layout = {
     'title': 'Самые популярные проекты Python на GitHub',
-    'xaxis': {'title': 'Репозитории'},
-    'yaxis': {'title': 'Звёзды'}
+    'titlefont': {'size': 28},
+    'xaxis': {
+        'title': 'Репозитории',
+        'titlefont': {'size': 24},
+        'tickfont': {'size': 14},
+    },
+    'yaxis': {'title': 'Звёзды',
+              'titlefont': {'size': 14},
+              },
 }
 fig = {'data': data, 'layout': my_layout}
 offline.plot(fig, filename='python_repos.html')
