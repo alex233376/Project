@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f2df3e1c-3b36-4ed5-8a7b-88d2b22872c7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/glava7/confirmed_users.py" beforeDir="false" afterPath="$PROJECT_DIR$/glava7/confirmed_users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/glava7/mountain_poll.py" beforeDir="false" afterPath="$PROJECT_DIR$/glava7/mountain_poll.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/glava7/parrot.py" beforeDir="false" afterPath="$PROJECT_DIR$/glava7/parrot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/glava7/pets.py" beforeDir="false" afterPath="$PROJECT_DIR$/glava7/pets.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,11 +25,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="C:/bot_test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Python.mpl_squares">
+  <component name="RunManager" selected="Python.sitka_highs">
     <configuration name="division_calculator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="proj" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -60,6 +64,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/glava15/mpl_squares.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sitka_highs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="proj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/glava16/data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/glava16/data/sitka_highs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,34 +135,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="upr8.4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="proj" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/glava8" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/glava8/upr8.4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sitka_highs" />
         <item itemvalue="Python.mpl_squares" />
         <item itemvalue="Python.division_calculator" />
         <item itemvalue="Python.division_calculator" />
         <item itemvalue="Python.upr10.4 (1)" />
-        <item itemvalue="Python.upr10.4" />
       </list>
     </recent_temporary>
   </component>
@@ -179,22 +183,38 @@
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
     <state x="955" y="323" key="FileChooserDialogImpl/0.40.2048.1112@0.40.2048.1112" timestamp="1590121637974" />
-    <state width="1260" height="162" key="GridCell.Tab.0.bottom" timestamp="1590121639410">
+    <state width="1260" height="161" key="GridCell.Tab.0.bottom" timestamp="1590380151381">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
-    <state width="1260" height="162" key="GridCell.Tab.0.bottom/0.40.2048.1112@0.40.2048.1112" timestamp="1590121639410" />
-    <state width="1260" height="162" key="GridCell.Tab.0.center" timestamp="1590121639410">
+    <state width="1260" height="161" key="GridCell.Tab.0.bottom/0.40.2048.1112@0.40.2048.1112" timestamp="1590380151381" />
+    <state width="1260" height="161" key="GridCell.Tab.0.center" timestamp="1590380151380">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
-    <state width="1260" height="162" key="GridCell.Tab.0.center/0.40.2048.1112@0.40.2048.1112" timestamp="1590121639410" />
-    <state width="1260" height="162" key="GridCell.Tab.0.left" timestamp="1590121639410">
+    <state width="1260" height="161" key="GridCell.Tab.0.center/0.40.2048.1112@0.40.2048.1112" timestamp="1590380151380" />
+    <state width="1260" height="161" key="GridCell.Tab.0.left" timestamp="1590380151380">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
-    <state width="1260" height="162" key="GridCell.Tab.0.left/0.40.2048.1112@0.40.2048.1112" timestamp="1590121639410" />
-    <state width="1260" height="162" key="GridCell.Tab.0.right" timestamp="1590121639410">
+    <state width="1260" height="161" key="GridCell.Tab.0.left/0.40.2048.1112@0.40.2048.1112" timestamp="1590380151380" />
+    <state width="1260" height="161" key="GridCell.Tab.0.right" timestamp="1590380151381">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
-    <state width="1260" height="162" key="GridCell.Tab.0.right/0.40.2048.1112@0.40.2048.1112" timestamp="1590121639410" />
+    <state width="1260" height="161" key="GridCell.Tab.0.right/0.40.2048.1112@0.40.2048.1112" timestamp="1590380151381" />
+    <state width="1260" height="202" key="GridCell.Tab.1.bottom" timestamp="1590380151376">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="1260" height="202" key="GridCell.Tab.1.bottom/0.40.2048.1112@0.40.2048.1112" timestamp="1590380151376" />
+    <state width="1260" height="202" key="GridCell.Tab.1.center" timestamp="1590380151376">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="1260" height="202" key="GridCell.Tab.1.center/0.40.2048.1112@0.40.2048.1112" timestamp="1590380151376" />
+    <state width="1260" height="202" key="GridCell.Tab.1.left" timestamp="1590380151376">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="1260" height="202" key="GridCell.Tab.1.left/0.40.2048.1112@0.40.2048.1112" timestamp="1590380151376" />
+    <state width="1260" height="202" key="GridCell.Tab.1.right" timestamp="1590380151376">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="1260" height="202" key="GridCell.Tab.1.right/0.40.2048.1112@0.40.2048.1112" timestamp="1590380151376" />
     <state x="632" y="218" key="SettingsEditor" timestamp="1589541754076">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
