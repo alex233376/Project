@@ -10,7 +10,7 @@ def getTitle(url):
     except HTTPError as e:
         return None
     try:
-        bsObj = BeautifulSoup(html.read())
+        bsObj = BeautifulSoup(html, "html.parser")
         title = bsObj.body.h1
     except ArithmeticError as e:
         return None
