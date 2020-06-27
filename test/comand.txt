@@ -1,0 +1,3 @@
+D:
+cd Project\test\env\Scripts
+Project\test\env\Scripts>activate.bat
