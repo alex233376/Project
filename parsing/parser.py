@@ -24,8 +24,11 @@ class AvitoParser:
 
     def get_blocks(self):
         text = self.get_page(page=2)
-        print(text)
-        return
+        soup = bs4.BeautifulSoup(text, 'lxml')
+        container = soup.select('div.snippet-horizontal.item.item_table.clearfix.js-catalog-item-enum.item-with-contact.js-item-extended')
+        for item in container:
+            print(item)
+            return
 
 
 def main():
