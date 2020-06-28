@@ -24,8 +24,13 @@ class AvitoParser:
 
     def parse_block(self, item):
         url_block = item.select_one('a.snippet-link')
-        print(url_block)
-        return
+        href = url_block.get('href')
+        if href:
+            url = 'https://www.avito.ru' + href
+        else:
+            url = None
+        # print(url_block)
+        # return
 
     def get_blocks(self):
         text = self.get_page(page=2)
