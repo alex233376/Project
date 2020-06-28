@@ -15,20 +15,27 @@ class AvitoParser:
         params = {
             'radius': 0,
             'user': 1,
-            }
+        }
         if page and page > 1:
             params['p'] = page
             url = 'https://www.avito.ru/petrozavodsk/nastolnye_kompyutery'
             r = self.session.get(url, params=params)
             return r.text
 
+    def parse_block(self, item):
+        url_block = item.select_one('a.snippet-link')
+        print(url_block)
+        return
+
     def get_blocks(self):
         text = self.get_page(page=2)
         soup = bs4.BeautifulSoup(text, 'lxml')
-        container = soup.select('div.snippet-horizontal.item.item_table.clearfix.js-catalog-item-enum.item-with-contact.js-item-extended')
+        container = soup.select(
+            'div.snippet-horizontal.item.item_table.clearfix.js-catalog-item-enum.item-with-contact.js-item-extended')
         for item in container:
-            print(item)
+            block = self.parse_block(item=item)
             return
+            print(block)
 
 
 def main():
