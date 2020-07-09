@@ -15,7 +15,10 @@ def get_html(url, params=None):
 def get_pages_count(html):
     soup = BeautifulSoup(html, 'html.parser')
     pagination = soup.find_all('a', class_='pagination-page')
-    print(pagination)
+    if pagination:
+        return pagination[-1].get_text()
+    else:
+        return 1
 
 
 def get_content(html):
@@ -37,7 +40,7 @@ def parse():
     html = get_html(url)
     if html.status_code == 200:
         pages_count = get_pages_count(html.text)
-        #print(pages_count)
+        print(pages_count)
         # cars = get_content(html.text)
 
     else:
