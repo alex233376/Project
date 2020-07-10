@@ -16,7 +16,7 @@ def get_pages_count(html):
     soup = BeautifulSoup(html, 'html.parser')
     pagination = soup.find_all('a', class_='pagination-page')
     if pagination:
-        return pagination[-1]
+        return int(pagination[-2].get_text())
     else:
         return 1
 
@@ -31,7 +31,7 @@ def get_content(html):
             'title': item.find('div', class_='snippet-title-row').get_text(strip=True),
             'link': HOST + item.find('a', class_='snippet-link').get('href'),
             'usd_prise': item.find('span', class_='snippet-price').get_text().replace('\n', ''),
-            'cyti': item.find('span', class_='item-address-georeferences-item__content').get_text(),
+            # 'cyti': item.find('span', class_='item-address-georeferences-item__content').get_text(),
         })
     return cars
 
@@ -39,8 +39,14 @@ def get_content(html):
 def parse():
     html = get_html(url)
     if html.status_code == 200:
+        cars = []
         pages_count = get_pages_count(html.text)
-        print(pages_count)
+        for page in  range(1, pages_count + 1):
+            print(f'Парсинг страницы (page) из (pages_count)...')
+            html = get_html(url, params={'page': page})
+            get_content(html.text)
+            cars.extend(get_content(html.text))
+        print(cars)
         # cars = get_content(html.text)
 
     else:
