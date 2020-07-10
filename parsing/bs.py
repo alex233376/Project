@@ -31,7 +31,7 @@ def get_content(html):
             'title': item.find('div', class_='snippet-title-row').get_text(strip=True),
             'link': HOST + item.find('a', class_='snippet-link').get('href'),
             'usd_prise': item.find('span', class_='snippet-price').get_text().replace('\n', ''),
-            # 'cyti': item.find('span', class_='item-address-georeferences-item__content').get_text(),
+            # 'cyti': item.find('span', class_='item-address-georeferences-item_content').get_text(),
         })
     return cars
 
